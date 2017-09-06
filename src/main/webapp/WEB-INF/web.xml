@@ -7,6 +7,15 @@
          version="3.1"
          metadata-complete="true">
 
+    <servlet>
+        <servlet-name>whling</servlet-name>
+        <servlet-class>com.whl.activemq.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>whling</servlet-name>
+        <url-pattern>/whling.html</url-pattern>
+    </servlet-mapping>
+
     <!--&lt;!&ndash;配置DispatcherServlet&ndash;&gt;
     <servlet>
         <servlet-name>seckill-dispatcher</servlet-name>
